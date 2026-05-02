@@ -87,6 +87,20 @@ Each script iterates over:
 
 Results are written to `results/benchmark_diffid/<dataset>/<method>/<model>/`.
 
+## Citation
+
+If you use this codebase, please cite:
+
+```bibtex
+@inproceedings{kim2026manifoldaligned,
+  title={Manifold-Aligned Guided Integrated Gradients for Reliable Feature Attribution},
+  author={Soyeon Kim and Seongwoo Lim and Kyowoon Lee and Jaesik Choi},
+  booktitle={Forty-third International Conference on Machine Learning},
+  year={2026},
+  url={https://openreview.net/forum?id=FMRndM4OAk}
+}
+```
+
 ## License
 
 This project is released under the [MIT License](LICENSE).
