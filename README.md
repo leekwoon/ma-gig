@@ -4,7 +4,7 @@
     <img src="assets/teaser.png" width="90%">
 </p>
 
-This repository provides the source code for our paper **"Manifold-Aligned Guided Integrated Gradients for Reliable Feature Attribution,"** accepted to **ICML 2026**.
+This repository provides the source code for our paper **"[Manifold-Aligned Guided Integrated Gradients for Reliable Feature Attribution](https://arxiv.org/abs/2605.02167),"** accepted to **ICML 2026**.
 
 MA-GIG (Manifold-Aligned Guided Integrated Gradients) is a feature attribution method that constructs the integration path inside the latent space of a pretrained VAE. The decoded path stays close to the data manifold, which yields more faithful attributions than path-integral baselines that operate directly in pixel space.
 
@@ -92,12 +92,14 @@ Results are written to `results/benchmark_diffid/<dataset>/<method>/<model>/`.
 If you use this codebase, please cite:
 
 ```bibtex
-@inproceedings{kim2026manifoldaligned,
-  title={Manifold-Aligned Guided Integrated Gradients for Reliable Feature Attribution},
-  author={Soyeon Kim and Seongwoo Lim and Kyowoon Lee and Jaesik Choi},
-  booktitle={Forty-third International Conference on Machine Learning},
-  year={2026},
-  url={https://openreview.net/forum?id=FMRndM4OAk}
+@misc{kim2026manifoldaligned,
+      title={Manifold-Aligned Guided Integrated Gradients for Reliable Feature Attribution},
+      author={Soyeon Kim and Seongwoo Lim and Kyowoon Lee and Jaesik Choi},
+      year={2026},
+      eprint={2605.02167},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2605.02167},
 }
 ```
 
